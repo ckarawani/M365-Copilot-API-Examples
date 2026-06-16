@@ -4,6 +4,9 @@ A [Bruno](https://www.usebruno.com/) API collection with worked examples for the
 Microsoft 365 Copilot / Microsoft Graph APIs — covering both **application** and
 **delegated** authentication flows.
 
+> 📖 For full API reference and concepts, see the official
+> [Microsoft 365 Copilot APIs overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/copilot-apis-overview).
+
 ## What's inside
 
 | Folder | Auth flow | Examples |
