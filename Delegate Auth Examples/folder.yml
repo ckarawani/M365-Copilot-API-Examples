@@ -23,4 +23,3 @@ request:
     settings:
       autoFetchToken: true
       autoRefreshToken: false
-​
