@@ -1,0 +1,8 @@
+name: Copilot API (Delegate)
+variables:
+  - secret: true
+    name: appId
+  - secret: true
+    name: secret
+  - secret: true
+    name: tenantId

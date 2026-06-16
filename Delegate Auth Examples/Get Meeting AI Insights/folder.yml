@@ -1,0 +1,7 @@
+info:
+  name: Get Meeting AI Insights
+  type: folder
+  seq: 1
+
+request:
+  auth: inherit

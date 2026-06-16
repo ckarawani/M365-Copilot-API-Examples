@@ -1,0 +1,26 @@
+info:
+  name: Delegate Auth Examples
+  type: folder
+  seq: 1
+
+request:
+  auth:
+    type: oauth2
+    flow: authorization_code
+    authorizationUrl: https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/authorize
+    accessTokenUrl: https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token
+    credentials:
+      clientId: "{{appId}}"
+      clientSecret: "{{secret}}"
+      placement: body
+    scope: User.Read Calendars.ReadBasic OnlineMeetings.Read
+    pkce:
+      disabled: true
+    tokenConfig:
+      id: credentials
+      placement:
+        header: Bearer
+    settings:
+      autoFetchToken: true
+      autoRefreshToken: false
+​

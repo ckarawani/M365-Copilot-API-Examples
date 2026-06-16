@@ -1,0 +1,18 @@
+info:
+  name: 1 - Create New Convo
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: https://graph.microsoft.com/beta/copilot/conversations
+  body:
+    type: json
+    data: "{}"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

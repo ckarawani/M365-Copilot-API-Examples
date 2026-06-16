@@ -1,0 +1,15 @@
+info:
+  name: 4 - Get Insight with a given insight ID
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: https://graph.microsoft.com/v1.0/copilot/users/7a902dfa-bf43-441e-a4f2-e5984be85d11/onlineMeetings/MSo3YTkwMmRmYS1iZjQzLTQ0MWUtYTRmMi1lNTk4NGJlODVkMTEqMCoqMTk6bWVldGluZ19NVGs0T1dVeU1qa3RNR1F3WWkwMFlXVmtMV0k0WkdZdFlUQmhNbVE1TVdJd1pqZGxAdGhyZWFkLnYy/aiInsights/VjEjI1NQT19PR0UxT1dVM1lUTXRNV1U0TXkwME9Ua3lMVGxsTmpjdFl6QXdNamsyT1dRNE1XSTVMR0l6WWpkbFl6STFMVGxrT1RJdE5HUmlOaTFpWTJKbExUZ3hZalEzWWpBM1pqZzRNQ3hrTlRabU5tUmlNaTB4WWprMkxUUmhOV1F0WVRJM1ppMWtPVEE0WVRFME1EQTBZMlFfMDFXREJDSFNJUEZaRkZaTU00SUpBSUYzR1FLVlBDWDRaUA==
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

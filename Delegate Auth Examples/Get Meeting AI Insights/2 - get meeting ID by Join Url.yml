@@ -1,0 +1,24 @@
+info:
+  name: 2 - get meeting ID by Join Url
+  type: http
+  seq: 1
+
+http:
+  method: get
+  url: https://graph.microsoft.com/v1.0/me/onlineMeetings?$filter=joinWebUrl eq 'https://teams.microsoft.com/l/meetup-join/19:meeting_MTk4OWUyMjktMGQwYi00YWVkLWI4ZGYtYTBhMmQ5MWIwZjdl@thread.v2/0?context=%7b%22Tid%22%3a%22197a1282-8d7d-4bd9-8a41-ac1c7bddbb0e%22%2c%22Oid%22%3a%227a902dfa-bf43-441e-a4f2-e5984be85d11%22%7d'
+  headers:
+    - name: Authorization
+      value: "Bearer "
+    - name: Content-Type
+      value: application/json
+  params:
+    - name: $filter
+      value: joinWebUrl eq 'https://teams.microsoft.com/l/meetup-join/19:meeting_MTk4OWUyMjktMGQwYi00YWVkLWI4ZGYtYTBhMmQ5MWIwZjdl@thread.v2/0?context=%7b%22Tid%22%3a%22197a1282-8d7d-4bd9-8a41-ac1c7bddbb0e%22%2c%22Oid%22%3a%227a902dfa-bf43-441e-a4f2-e5984be85d11%22%7d'
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
