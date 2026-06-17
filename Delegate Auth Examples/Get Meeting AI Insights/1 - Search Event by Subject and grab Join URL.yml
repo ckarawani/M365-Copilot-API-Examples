@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: https://graph.microsoft.com/v1.0/users/ckarawani@easy365.io/events?$filter=contains(subject,'Blog')
+  url: https://graph.microsoft.com/v1.0/users/ckarawani@easy365.io/events?$filter=contains(subject,'Ben')
   params:
     - name: $filter
-      value: contains(subject,'Blog')
+      value: contains(subject,'Ben')
       type: query
   auth: inherit
 
