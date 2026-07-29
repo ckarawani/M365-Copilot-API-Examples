@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: https://graph.microsoft.com/v1.0/copilot/users/7a902dfa-bf43-441e-a4f2-e5984be85d11/onlineMeetings/MSo3YTkwMmRmYS1iZjQzLTQ0MWUtYTRmMi1lNTk4NGJlODVkMTEqMCoqMTk6bWVldGluZ19NVGs0T1dVeU1qa3RNR1F3WWkwMFlXVmtMV0k0WkdZdFlUQmhNbVE1TVdJd1pqZGxAdGhyZWFkLnYy/aiInsights/
+  url: https://graph.microsoft.com/v1.0/copilot/users/7a902dfa-bf43-441e-a4f2-e5984be85d11/onlineMeetings/MSo3YTkwMmRmYS1iZjQzLTQ0MWUtYTRmMi1lNTk4NGJlODVkMTEqMCoqMTk6bWVldGluZ19PREJqTldabE1Ua3RaRFk1T0MwME9XTm1MVGt6TkRFdE5USXpPV0V6WW1VeE1qaGpAdGhyZWFkLnYy/aiInsights/
   auth: inherit
 
 settings:
